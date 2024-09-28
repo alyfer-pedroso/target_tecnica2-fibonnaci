@@ -42,7 +42,7 @@ const verifyFibonacci = (value) => {
 
   document.querySelector("#result").innerHTML = `
     <p class="text-2xl [&>b]:font-bold mb-2"><b>Sequência</b>: [${vector.join(", ")}]</p>
-    <span class="text-2xl ${includes ? "text-green-700" : "text-red-700"}">Pertence: ${includes ? "sim" : "não"}</span>
+    <span class="text-2xl font-bold ${includes ? "text-green-700" : "text-red-700"}">Pertence: ${includes ? "sim" : "não"}</span>
   `;
 
   console.log("sequência::", vector);
